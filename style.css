@@ -18,7 +18,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  border: 2px solid #ddd;
+  border: 2px solid rgba(226, 226, 226, 0.782);
   height: 240px;
   width: 240px;
   margin: 30px 0;
@@ -43,6 +43,6 @@
 }
 
 #colorBox::placeholder {
-  color: rgba(0, 0, 0, 0, 0699);
+  color: rgba(0, 0, 0, 0, 0644);
   font-size: inherit;
 }

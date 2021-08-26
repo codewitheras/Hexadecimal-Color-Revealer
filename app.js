@@ -1,5 +1,6 @@
 const colorInput = document.getElementById('colorBox');
 const colorReveal = document.getElementById('showColor');
+const colorBorder = document.getElementById('colorBorder');
 
 colorInput.addEventListener('input', (e) => {
   const color = e.target.value;
@@ -7,6 +8,7 @@ colorInput.addEventListener('input', (e) => {
 
   if (color.match(hexColorRegex)) {
     colorReveal.style.backgroundColor = color;
+    colorBorder.style.borderColor = color;
   } else {
     colorInput.style.borderColor = 'rgb(226, 226, 226)';
   }
